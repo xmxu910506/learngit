@@ -1,0 +1,10 @@
+git status --查看当前状态
+git add <filename> --将指定文件加入暂存区
+git add -A 或--all --将所有修改放入暂存区
+git rm <filename>  将删除的文件放入暂存区
+git commit -m "注释" 将暂存区的修改更新至分支上
+git reset --hard HEAD~NUM  回退num次版本
+git reset --hard CommitId 回退到指定版本
+git log 
+git log --pretty=oneline
+git reflog
